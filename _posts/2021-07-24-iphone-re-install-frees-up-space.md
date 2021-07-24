@@ -8,7 +8,7 @@ I have a more or less ancient iPhone SE 2016, with 16GB of storage. For the past
 
 “OK,” — I said to myself — “it’s time to get let it go.” I got one a second-generation SE with 128GB, took advantage of the installation magic that iOS has where when you turn on a new iPhone in close proximity to another, it asks if you want to “move” to the new one, which means you get the same setup automagically.
 
-The biggest surprise was that when I installed everything on the new phone — exactly the same setup — it only took under 11GB. Now I wondered if the same would happen if I wiped out everything on the old SE and install it afresh. Tried it, and yes, the same configuration, same apps, now took under 11GB.
+The biggest surprise was that when I installed everything on the new phone — exactly the same setup — it only took under 11GB. Now I wondered if the same would happen if I wiped out everything on the old SE and install it afresh. Tried it, and yes, the same configuration, same apps, now took under 11GB. And, it also seems smoother: apps seem to load and react faster than before.
 
 I’m guessing it’s about lots and lots of garbage accumulated over the years of OS and app updates. Maybe some kind of filesystem fragmentation too.
 
