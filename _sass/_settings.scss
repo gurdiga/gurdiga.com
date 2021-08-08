@@ -3,11 +3,11 @@ $sans-serif-fonts: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Droid Sans', 
 $serif-fonts: 'Palatino', 'Palatino Linotype', 'Book Antiqua', #{$zh-fonts}, serif;
 $monospaced-fonts: 'Menlo', 'Monaco', 'Consolas', "Courier New", monospace;
 
-$default-font-size: 18px;
+$default-font-size: 16px;
 
 // CUSTOMIZATION
 
 @import 'fonts';
-$sans-serif-fonts: 'PT Sans', #{$sans-serif-fonts};
+$serif-fonts: Merriweather, #{$serif-fonts};
 $monospaced-fonts: Inconsolata, #{$monospaced-fonts};
 @import 'custom';

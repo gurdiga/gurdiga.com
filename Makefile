@@ -46,12 +46,16 @@ e: edit
 pre-commit: build
 pc: pre-commit
 
+re-fonts: rm-fonts fonts
+rm-fonts:
+	rm -rf assets/fonts/ _sass/_fonts.scss
+
 fonts: _sass/_fonts.scss
 _sass/_fonts.scss: assets/fonts/
 	set -e
 	if [ -e "$@" ]; then mv "$@" "$@.old"; fi
 	( \
-		echo 'https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap'; \
+		echo 'https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap'; \
 		echo 'https://fonts.googleapis.com/css2?family=Inconsolata&display=swap'; \
 	) | while read url; do \
 		curl \
@@ -62,7 +66,7 @@ _sass/_fonts.scss: assets/fonts/
 	mkdir -p assets/fonts
 	grep -Po 'https://fonts.gstatic.com\S+.woff2' $@ | xargs wget --directory-prefix=assets/fonts/
 	/usr/local/opt/gnu-sed/libexec/gnubin/sed -i 's|https://fonts.gstatic.com/.*/|fonts/|' $@
-	rm "$@.old"
+	if [ -e "$@.old" ]; then rm "$@.old"; fi
 
 assets/fonts/:
 	mkdir assets/fonts
