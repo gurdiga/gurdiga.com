@@ -4,7 +4,7 @@ title: iPhone re-install frees up space
 date: 2021-07-24 08:46 +0300
 ---
 
-I have a more or less ancient iPhone SE 2016, with 16GB of storage. For the past year or so, the storage was filled up to 15.5GB most of the time. I kept juggling the apps by offloading and restoring the ones that I only needed once a week. Lately, some of the apps that I use continuously grew past 200MB in size, and I got to a point where I just didn’t have enough space.
+I have a more or less ancient iPhone SE 2016, with 16GB of storage. For the past year or so, the storage was filled up to 15.5GB most of the time. I kept juggling the apps by offloading and restoring the ones that I only needed once a week. Lately, some of the apps that I use grew past 200MB in size, and I got to a point where I just didn’t have enough space.
 
 “OK,” — I said to myself — “it’s time to get let it go.” I got one a second-generation SE with 128GB, took advantage of the installation magic that iOS has where when you turn on a new iPhone in close proximity to another: It asks if you want to “move” to the new one, which means you get the same setup automagically.
 
