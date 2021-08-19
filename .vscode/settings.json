@@ -1,4 +1,3 @@
 {
-  "editor.formatOnSave": true,
-  "cSpell.enableFiletypes": ["markdown"]
+  "editor.formatOnSave": true
 }
