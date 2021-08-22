@@ -9,3 +9,8 @@
   margin: 3em 0 0.5em;
   content: " ";
 }
+
+// Do not break-word in code snippets
+.post pre code {
+  word-wrap: normal;
+}
