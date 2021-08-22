@@ -46,10 +46,12 @@ This is a concept I’ve learned—again—from [James Shore][3]. Since this RSS
 Conceptually, it means that the code is structured in code chunks that do either IO or business logic, but not both. Something like this:
 
 ```ts
-let input = infrastructure.readData();
-let output = logic.processInput(input);
+function main() {
+  let input = infrastructure.readData();
+  let output = logic.processInput(input);
 
-infrastructure.writeData(output);
+  infrastructure.writeData(output);
+}
 ```
 
 ## Microtest TDD
