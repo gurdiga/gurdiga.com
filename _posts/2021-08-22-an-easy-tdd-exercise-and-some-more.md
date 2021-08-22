@@ -47,8 +47,8 @@ Conceptually, it means that the code is structured in code chunks that do either
 
 ```ts
 function main() {
-  let input = infrastructure.readData();
-  let output = logic.processInput(input);
+  const input = infrastructure.readData();
+  const output = logic.processInput(input);
 
   infrastructure.writeData(output);
 }
