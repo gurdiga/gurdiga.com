@@ -4,7 +4,7 @@ title: An easy TDD exercise and some more
 date: 2021-08-22 12:57 +0300
 ---
 
-A couple of months ago I’ve set out to write a lil [RSS-checking program][0] that I thought would be useful for a friend. As a small green-field project, I thought it’s going to be perfect to—once again—try that hippy TDD method that everyone was talking about 10 years ago. In retrospect, a few things came in really handy while writing this program, and wanted to share them.
+A couple of months ago I’ve set out to write a lil [RSS-checking program][0] that I thought would be useful for a friend. As a small green-field project, I thought it’s going to be perfect to — once again — try that hippy TDD method that everyone was talking about 10 years ago. In retrospect, a few things came in really handy while writing this program, and wanted to share them.
 
 [0]: https://github.com/gurdiga/rss-email-subscription
 
@@ -39,7 +39,7 @@ I think this approach has something in common with [Readme Driven Development][2
 
 ## “Logic sandwich”
 
-This is a concept I’ve learned—again—from [James Shore][3]. Since this RSS-checking program would involve a significant portion of IO, I found that using the “logic sandwich” approach helped me keep the IO and business logic unentangled, which in turn, made more of the code TDD-able.
+This is a concept I’ve learned — again — from [James Shore][3]. Since this RSS-checking program would involve a significant portion of IO, I found that using the “logic sandwich” approach helped me keep the IO and business logic unentangled, which in turn, made more of the code TDD-able.
 
 [3]: https://www.jamesshore.com/v2/blog/2018/testing-without-mocks#logic-sandwich
 
@@ -81,7 +81,7 @@ I find it brings clarity to the program flow by clearly delineating the failure 
 
 ## Try easy!
 
-Last but not least, it’s a meta-idea that I got from the [“Accidental Genius” book][7]: it’s called “Try easy!”. Its essence—seemingly counterintuitive at first—is that you can actually achieve more when you’re _not_ trying to give 105% of yourself to an activity, but on the contrary, to relax a bit, maybe to 90%.
+Last but not least, it’s a meta-idea that I got from the [“Accidental Genius” book][7]: it’s called “Try easy!”. Its essence — seemingly counterintuitive at first — is that you can actually achieve more when you’re _not_ trying to give 105% of yourself to an activity, but on the contrary, to relax a bit, maybe to 90%.
 
 [7]: https://www.goodreads.com/book/show/8360431-accidental-genius
 
