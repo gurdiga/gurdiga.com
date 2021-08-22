@@ -79,4 +79,14 @@ This is a concept I saw used in typed functional languages like Haskell, Elm, an
 
 I find it brings clarity to the program flow by clearly delineating the failure paths, and, in a well-typed language like TypeScript, this makes for pretty readable and resilient code.
 
+## Try easy!
+
+Last but not least, it’s a meta-idea that I got from the [“Accidental Genius” book][7]: it’s called “Try easy!”. Its essence—seemingly counterintuitive at first—is that you can actually achieve more when you’re _not_ trying to give 105% of yourself to an activity, but on the contrary, to relax a bit, maybe to 90%.
+
+[7]: https://www.goodreads.com/book/show/8360431-accidental-genius
+
+That way you’re more flexible and keep the ability to work around the obstacles that inevitable come up with every project. Yes, this is all metaphorical and meta, but I still found it valuable. On this project specifically, I actually started twice: once with a straight face, saying to myself “I’m going to TDD this to death!” and then gave up on this idea after a week of struggling because this attitude of perfectionism was making me feel crippled.
+
+Then, after few days of sadness and disappointment, I’ve changed my posture to “try easy” and said something to the effect of “Let’s see if I can do just this one little thingy over here.” Then, another “little thingy,” and then another.
+
 Happy coding!
