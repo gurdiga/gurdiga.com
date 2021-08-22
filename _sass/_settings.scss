@@ -9,5 +9,4 @@ $default-font-size: 16px;
 
 @import 'fonts';
 $serif-fonts: Merriweather, #{$serif-fonts};
-$monospaced-fonts: Inconsolata, #{$monospaced-fonts};
 @import 'custom';
